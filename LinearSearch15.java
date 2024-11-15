@@ -3,7 +3,7 @@ public class LinearSearch15 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int[] arrayInt;
-        int key, num, out = 0;
+        int key, num;
         int result = 0;
         System.out.print("Enter the number of array elements : ");
         num = sc.nextInt();
@@ -11,7 +11,6 @@ public class LinearSearch15 {
         for (int i = 0; i < arrayInt.length; i++){
             System.out.print("Enter the array element " + i + ": ");
             arrayInt[i] = sc.nextInt();
-            out = arrayInt[i];
              
         }
      
