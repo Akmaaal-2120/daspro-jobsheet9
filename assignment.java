@@ -19,9 +19,11 @@ public class assignment {
         lowest = arrayNum[0];
         
         for (int i = 0; i < arrayNum.length; i++){
-            if(arrayNum[i] > arrayNum[0]){
+            if(arrayNum[i] > highest){
+              
                 highest = arrayNum[i];
             }else if (arrayNum[i] < lowest){
+                
                 lowest = arrayNum[i];
             }
             total += arrayNum[i];
